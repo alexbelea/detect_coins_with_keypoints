@@ -1,0 +1,124 @@
+coins_easy/
+# Compiled source code
+*.o
+*.pyc
+__pycache__/
+*.exe
+*.dll
+*.so
+*.obj
+*.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.whl
+*.tar.gz
+*.zip
+
+# VS Code specific files and directories
+.vscode/
+.history/
+.DS_Store  # macOS specific
+
+# Log files
+*.log
+
+# Temporary files
+*~
+\#*
+*.tmp
+*.temp
+
+# Environment variables files (sensitive data)
+.env
+.env.*
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files (often hidden)
+.localized
+Thumbs.db
+
+# Other files/directories you might want to ignore
+.idea/       # IntelliJ IDEA
+.project/    # Eclipse
+*.suo        # Visual Studio solution user options
+*.user       # Visual Studio user-specific files
+*.sln        # Visual Studio solution file
+*.sdf        # Visual Studio SQL Server Compact database file
+*.opensdf    # Visual Studio portable database file
+
+# Example for specific files
+config.ini  # Configuration file (if it contains sensitive data)
+
+# If you want to keep some files in a directory, but ignore the rest
+my_directory/*
+!my_directory/.keep  # This will keep the .keep file in my_directory
+
+# Ignore all .txt files except a specific one
+*.txt
+!important.txt
+!requirements.txt
+
+# Node.js (if applicable)
+node_modules/
+package-lock.json
+
+# Rust (if applicable)
+target/
+
+# Go (if applicable)
+bin/
+
+# C++ (if applicable)
+*.swp
+
+# Docker (if applicable)
+.dockerignore
+
+# Kubernetes (if applicable)
+.kube/
+
+# Secrets (never commit these!)
+*.key
+*.pem
+*.pfx
+
+# Cache directories
+__pycache__/
+.cache/
+
+# Large data files (unless absolutely necessary)
+*.data  # Example extension
+large_file.csv
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files created by editors
+*.swp
+*.swo
+
+# Tests data (if large and not essential for the repo)
+test_data/
+
+# Venv
+venv/
+.venv/
+env/
+lib/
+lib64/
+bin/
+.git/
+share/
+pyvenv.cfg
+include/
